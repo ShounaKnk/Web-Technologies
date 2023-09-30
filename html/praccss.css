@@ -1,0 +1,74 @@
+/*/* h2 {
+    color: #ffbbaa;
+    text-align: center;
+    background-color: purple;
+}
+#try
+{
+    background-color: hsl(0, 100%, 30%);
+    color: aqua;
+
+}
+
+.name
+{
+    background-color: orange;
+    opacity: 50%;
+    color: white;
+}
+#cb1,#cb2
+{
+    text-align: center;
+    background-color: blue;
+    color: pink;
+}
+
+div{
+    /* background-color: darkgrey;
+    background-image: url(rettro.jpeg);
+    background-repeat: no-repeat;
+    background-position: right; */
+   /* background: darkgreen url(rettro.jpeg) no-repeat top right;
+}*/
+/*
+tr{
+    background-color: lightcoral;
+    opacity:.8;
+}
+
+*
+{
+    background: pink url("retro.jpg") no-repeat fixed center;
+}
+
+h3{
+    
+    position: sticky;
+    top:0;
+} */
+
+#d1{
+    position: relative;
+    left: 250px;
+    color: black;
+    border: solid black;
+    height: 400px;
+    width: 800px;
+}
+
+#d2
+{
+    color:black;
+    border: solid black;
+    position: absolute;
+    bottom: 5px;
+    right: 2px;
+    width: 200px;
+    height: 50px;
+}
+img{
+    position:absolute;
+    z-index: -10;
+    top:2px;
+    opacity: 0.5;
+}

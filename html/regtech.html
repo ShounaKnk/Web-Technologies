@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>List</title>
+</head>
+<body bgcolor="beige">
+    <h1>List Your Tech</h1>
+    <hr>
+    <form>
+        <label><b>Type of Tech</b></label><br>
+        <select> 
+            <option></option>
+            <option>Television</option>
+            <option>Communication Device</option>
+            <option>Camera</option>
+            <option>Music</option>
+            <option>Gamming Console</option>
+            <option>Computer</option>
+            <option>Typing Tech</option>
+            <option>Watches</option>
+            <option>Storage Device</option>
+        </select><br><br>
+        <div>
+            <label><b>Brand </b></label><br>
+                <input type="text" id="brand" placeholder="enter brand" required><br><br>
+            <label><b>Name </b></label><br>
+                <input type="text" id="Name" placeholder="enter name" required><br><br>
+            <label><b>Model </b></label><br>
+                <input type="text" id="brand" placeholder="enter Model number" required><br><br>
+            <label><b>Color</b></label><br>
+                <input type="color" id="color"><br><br>
+        </div>
+        <div>
+            <label><b>Date of Purchase</b></label><br>
+                <input type="date" id="DOP" required><br><br>
+            <label><b>Source of Purchase</b></label><br>
+                <input type="text" id="source" placeholder="source" required><br><br>
+            <label><b>No. of previous Ownners </b></label><br>
+                <input type="number" id="POwners" required><br><br>
+            <Label><b>Box Contents Available</b></Label><br>
+                <input type="checkbox" id="box" readonly>Box<br>
+                <input type="checkbox" id="bill" readonly>Bill<br>
+                <input type="checkbox" id="um" readonly>User Manual<br>
+                <input type="checkbox" id="warrentyC" readonly>Warrenty Card<br>
+                <input type="checkbox" id="charger" readonly>Charger(if was included along with the product)<br><br>
+        </div>
+        
+        <div>
+            <label><b>Working Condition</b></label><br>
+                <input type="radio" id="w" name="WC" value="working">Working<br>
+                <input type="radio" id="nw" name="WC" value="not working">Not Working<br><br>
+            <label><b>Repairs Done</b></label><br>
+                <input type="radio" name="repair" id="yes" value="y">Yes<br>
+                <input type="radio" name="repair" id="no" value="n">No<br><br>
+        </div>
+        <div>
+            <label><b>Product Picture</b></label><br>
+                <input type="file" id="Pimg"><br><br>
+            <label><b>Bill Picture(if Available)</b></label><br>
+                <input type="file" id="Bimg"><br><br>
+            <label>For sale?</label><br>
+                <input type="radio" id="y" name="sale" value="Y">Yes<br>
+                <input type="radio" id="n" name="sale" value="N" checked>No<br><br>
+        </div>
+
+        <input type="submit" value="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>

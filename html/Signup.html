@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <title>Sign Up</title>
+</head>
+<body bgcolor="beige">
+    <head><h1>Sign Up</h1></head>
+    <hr>
+    <form action="backend.php">
+        <label> First Name </label>
+        <input type="text" placeholder="first name"  id ="fname" autofocus><br><br>
+        <label> Last Name </label>
+        <input type="text" placeholder="last name"  id ="lfname"><br><br>
+        <label> Email ID </label>
+        <input type="text" placeholder="email" id ="eid" size="40" autocomplete="email"><br><br>
+        <label> Create Password </label>
+        <input type="text" placeholder="password" id ="pwrd"><br><br>
+        <label> Confirm Password </label>
+        <input type="text" placeholder="confirm" id ="cpwrd"><br><br>
+        <label>Phone Number </label>
+        <input type="number" placeholder="Ph No." id="phno" maxlength="10"><br><br>
+        <label>Pager number: </label>
+        <input type="number" placeholder="Pager No." id="pgno" disabled><br><br>
+
+        <label>Gender:</label><br>
+        <label for="m">
+            <input type="radio" value="male" name ="Gender" id="m">Male<br>
+        </label>
+        <label for="f">
+            <input type="radio" value="female" name ="Gender" id="f">Female<br>
+        </label>
+        <label for="o">
+            <input type="radio" value="others" name ="Gender" id="o">Others<br>
+        </label>
+        <br><br>
+        <label>Date of Birth: </label>
+        <input type="date" id="DOB"><br>
+        <br><br>
+
+        <label>Number of People who can access account: </label>
+        <input type="number" placeholder="no. of People" min="1" max="4" id="Nppl" ><br><br>
+
+        <label>Country</label>
+        <select>
+            <option></option>
+            <option>India</option>
+            <option>Ameria</option>
+            <option>Russia</option>
+            <option>Japan</option>
+            <option>Italy</option>
+            <option>United Kingdom</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Choose theme colour: </label>
+        <input type="color" id="theme" name="theme">
+        <br>
+        <br>
+        <label>Choose Profile picture: </label>
+        <br>
+        <input type="file" id="pfp" name="pfp">
+        <br>
+        <br>
+        <input type="checkbox" id="t&c" readonly>I agree to all the terms and conditions<br>
+        <input type="checkbox" id="infoshare" readonly checked>I agree to share my data for personalized experience
+        <br><br>
+        <input type="submit" value="submit">
+        <input type="reset">
+        <table border="1">
+    </form>
+</body>
